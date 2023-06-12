@@ -33,6 +33,23 @@ body > main {
     #fc466b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.address {
+  font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .address {
+    font-size: 1rem;
+  }
+}
+
+@media print {
+  .address {
+    font-size: 1rem;
+  }
+}
+
 .sticky-footer {
   position: sticky;
   left: 0;
